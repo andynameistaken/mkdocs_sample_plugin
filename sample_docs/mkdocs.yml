@@ -1,0 +1,19 @@
+
+#  Project information
+site_name: 'Example MkDocs Plugin'
+site_description: example'
+site_author: 'Andrzej Zahorski'
+
+
+# Repository
+# repo_name: ''
+# repo_url: ''
+# Copyright
+copyright: '&copy; andrzej.zahorski@protonmail.com'
+
+# Plugins
+plugins:
+  - search
+  - mkdocs_sample_plugin:
+      text: "This is custom text added by my plugin."
+      underline: true
