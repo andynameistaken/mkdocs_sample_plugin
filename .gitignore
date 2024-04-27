@@ -11,7 +11,8 @@ build
 build/
 dist
 dist/
-
+mkdocs_sample_plugin.egg-info
+mkdocs_sample_plugin.egg-info/
 # User-specific stuff
 .idea/
 .idea/**/workspace.xml
