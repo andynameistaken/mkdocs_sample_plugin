@@ -1,19 +1,15 @@
+site_name: My Documentation Site
+site_url: https://example.com
 
-#  Project information
-site_name: 'Example MkDocs Plugin'
-site_description: example'
-site_author: 'Andrzej Zahorski'
+theme:
+  name: mkdocs  # Using the default theme
 
-
-# Repository
-# repo_name: ''
-# repo_url: ''
-# Copyright
-copyright: '&copy; andrzej.zahorski@protonmail.com'
-
-# Plugins
 plugins:
-  - search
+  - search  # Enable the search plugin
   - mkdocs_sample_plugin:
-      text: "This is custom text added by my plugin."
-      underline: true
+      text: "This is custom text added by the plugin."
+      underline: true  # This will underline the custom text
+
+nav:
+  - Home: index.md
+  - Example: example.md
