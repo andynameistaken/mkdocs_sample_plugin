@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='mkdocs-sample-plugin',
-    version='0.1.0',
+    version='0.1.1',
     description='A sample MkDocs plugin to add custom text to the markdown pages.',
     author='Andrzej Zahorski',
     author_email='andrzej.zahorski@gmail.com',
