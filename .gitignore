@@ -7,6 +7,11 @@
 .venv/
 .venv
 site/
+build
+build/
+dist
+dist/
+
 # User-specific stuff
 .idea/
 .idea/**/workspace.xml
